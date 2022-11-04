@@ -1,0 +1,77 @@
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+   --color-de-fundo: #fbf7fb;
+   --color-de-link: #830164;
+   --color-letra-gris: #5e4362;
+   --color-de-fondo-contenedores: #f6ebf6;
+   --color-de-letra-placeholder: #A2A2A2;
+   --color-de-boton: #6a2766;
+   --raleway: 'Raleway';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--color-de-fundo) ;
+    font-family: var(--raleway);
+    line-height: 1;
+    color: var(--color-letra-gris);
+}
+
+ol, ul,li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+    
+}
+
+h2, h4 {
+    font-weight: 700;
+    color: var(--color-de-boton);
+}
+
+.boton-blanco {
+    border: thin solid var(--color-de-boton);
+    background: white;
+    color: var(--color-de-boton);
+    padding: .7rem;
+    font-family: var(--raleway);
+    transition: .3s;
+}
+
+.boton-oscuro {
+    border: thin solid var(--color-de-boton);
+    background: var(--color-de-boton);
+    color: white;
+    padding: .7rem;
+    font-family: var(--raleway);
+    transition: .3s;
+}
+
+.boton-blanco:hover {
+    background-color: var(--color-de-boton);
+    color: var(--color-de-fondo-contenedores);
+}
+
+.boton-oscuro:hover {
+    background-color: var(--color-de-fundo);
+    color: var(--color-de-boton);
+}
+
+@media screen and (min-width: 1024px) {
+    .boton-blanco {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .boton-oscuro {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+}

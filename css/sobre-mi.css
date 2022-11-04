@@ -1,0 +1,52 @@
+/*Sección sobre mi*/
+.about {
+    background: var(--color-de-fondo-contenedores);
+    
+}
+
+.about__container {
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.about__title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.about__paragraph {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 1rem;
+}
+
+.about__container img {
+    height: 20vh;
+}
+
+@media screen and (min-width: 1024px) {
+    .about {
+        padding-right: calc(((100% - 1200px)/2) + 360px + 1rem);
+        padding-left: calc((100% - 1200px)/2);
+    }
+
+    .about__title {
+        font-size: 32px;
+    }
+
+    .about__paragraph {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .about__container img {
+        margin-top: 2rem;
+    }
+}
+
+/*Tablet
+@media screen and (min-width: 768px) {
+
+}*/
