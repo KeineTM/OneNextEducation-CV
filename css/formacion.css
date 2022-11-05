@@ -3,6 +3,10 @@
     background: var(--color-de-fondo-contenedores);
 }
 
+.academic__courses {
+    padding: 1rem;
+}
+
 .academic__title {
     padding-top: 2rem;
 }
@@ -47,7 +51,6 @@
     .academic__courses {
         display: grid;
         grid-template-columns: 33.3% 33.3% 33.3%;
-        padding: .5rem;
     }
 
     .academic__courses__box {
